@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/detail"
+    tools:context=".DetailResep">
+
+    <ImageView
+        android:id="@+id/Imgdetail"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/nasi_goreng"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="-51dp"
+        tools:layout_editor_absoluteY="-23dp" />
+
+    <ImageView
+        android:id="@+id/kembali"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="323dp"
+        app:srcCompat="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="241dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/Imgdetail"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="170dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bg_item" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="138dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="138dp"
+        android:layout_marginEnd="136dp"
+        app:srcCompat="@drawable/resep" />
+
+    <TextView
+        android:id="@+id/titleDetail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="371dp"
+        android:layout_marginEnd="189dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Nasi Goreng"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView7"
+        android:layout_marginTop="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/desDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:text="Deskripsi"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

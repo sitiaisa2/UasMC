@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/bg_atas"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="213dp"
+        android:layout_height="97dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="99dp"
+        app:srcCompat="@drawable/judul" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/resep_recyclerList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView2"
+        tools:listitem="@layout/cardview_item"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>

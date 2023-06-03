@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login"
+    android:gravity="center"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:background="@drawable/judul"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="50dp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:text="Silahkan Registrasi"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:background="@drawable/bahan_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="TextSizeCheck">
+
+        <EditText
+            android:id="@+id/r_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/input_bg"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:layout_marginBottom="40dp"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textColorHint="#e6e6e6"
+            tools:ignore="HardcodedText,LabelFor,ObsoleteLayoutParam,TextContrastCheck" />
+
+
+        <EditText
+            android:id="@+id/r_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:background="@drawable/input_bg"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textColorHint="#e6e6e6"
+            tools:ignore="HardcodedText,LabelFor,ObsoleteLayoutParam,TextContrastCheck" />
+
+        <EditText
+            android:id="@+id/rpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:autofillHints=""
+            android:background="@drawable/input_bg"
+            android:ems="10"
+            android:fontFamily="@font/poppins"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:textColor="#FFF"
+            android:textColorHint="#e6e6e6"
+            tools:ignore="HardcodedText,LabelFor,ObsoleteLayoutParam,TextContrastCheck" />
+
+
+        <Button
+            android:id="@+id/rbtn_register"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_bg"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Register"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            app:backgroundTint="#FF622F"
+            tools:ignore="HardcodedText,TextContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sudah memiliki akun ?"
+                android:fontFamily="@font/poppins"
+                android:textColor="#795548"
+                android:textSize="12sp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppins"
+                android:text="Masuk"
+                android:textColor="#FF622F"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,InefficientWeight,TextContrastCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

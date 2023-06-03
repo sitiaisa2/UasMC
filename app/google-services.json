@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "259794777994",
+    "project_id": "myresep-75381",
+    "storage_bucket": "myresep-75381.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259794777994:android:1a13f95d27369964ccba73",
+        "android_client_info": {
+          "package_name": "com.example.myresep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQqRnzEmzp3V-l0Lk_YFuM7GmraY4ajwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

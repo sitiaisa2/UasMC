@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_lp"
+    tools:context=".LandingPage">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="205dp"
+        android:layout_height="264dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="102dp"
+        app:srcCompat="@drawable/icon"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="92dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Masuk"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:backgroundTint="#FF622F"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="92dp"
+        android:background="@drawable/button_bg"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Logout"
+        android:textColor="#FFF"
+        android:textSize="18sp"
+        app:backgroundTint="#ff0000"
+        tools:ignore="HardcodedText,TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="179dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="116dp"
+        app:srcCompat="@drawable/judul" />
+
+</RelativeLayout>
+
